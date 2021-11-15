@@ -117,6 +117,11 @@ button:hover i {
     margin-bottom: 2rem;
 }
 
+.item p {
+    line-height: 1.5;
+    padding-right: 10rem;
+}
+
 .item h1 {
     font-size: 40px;
     padding: 1rem;
@@ -133,10 +138,16 @@ button:hover i {
     object-fit: cover;
 }
 
-.item p {
+.item h5 {
     padding: 2rem 0;
     padding-right: 2rem;
     line-height: 1.5;
+    /* font-size: 10px; */
+}
+
+h5:hover {
+    transition: all 0.1s ease-in-out 0s;
+    transform: translateX(20px);
 }
 
 #ip {
@@ -151,6 +162,11 @@ button:hover i {
     grid-gap: 1rem;
     margin-top: 3rem;
     padding: 2rem;
+}
+
+.grid .a:hover {
+    padding: 1rem;
+    transition: 0.3s;
 }
 
 .grid .a img {
@@ -189,10 +205,11 @@ button:hover i {
     margin-right: 1rem;
 }
 
-.flex p {
+.flex h5 {
     display: flex;
     justify-content: center;
     font-size: 15px;
+    color: rgb(207, 214, 221);
 }
 
 .item1 h6 {
